@@ -71,8 +71,10 @@ html {
 }
 
 .keys span.eval {
-  background: #f1ff92;
+  background: #ffff66;
   color: #888e5f;
+  float: right;
+  right: 173px;
 }
 .keys span:active {
   top: 5px;
