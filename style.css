@@ -1,0 +1,28 @@
+html {
+  background: #CCFFFF;
+};
+
+#cashRegisterApp{
+  width: 450px;
+  height: auto;
+}
+
+.top.screen {
+  float: right;
+  height: 40px;
+  width: 400px;
+  font: arial;
+  color: #009900;
+  text-align: right;
+  line-height: 35px;
+
+}
+
+.keys span{
+  float: left;
+  position: relative;
+  width: 55px;
+  height: 45px;
+  background: #3385ff
+  
+}
