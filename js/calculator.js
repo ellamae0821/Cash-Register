@@ -19,16 +19,16 @@ var calculatorModule = (function (){
     return _total;
    }
 
-   function add(x){
+   function add(x,y){
     inspect(x);
-    _total += x;
+    _total = x+y;
     return _total;
    }
 
 
-   function subtract(x){
+   function subtract(x,y){
     inspect(x);
-    _total -= x;
+    _total = x-y;
     return _total;
    }
 
@@ -38,7 +38,7 @@ var calculatorModule = (function (){
     return _total;
    }
 
-   function divide(num1, num2){
+   function divide(x){
     inspect(x);
     _total /= x;
     return _total;
@@ -64,6 +64,8 @@ var calculatorModule = (function (){
 
 
 
+
+
   var calculator = {
     load:load,
     getTotal:getTotal,
@@ -71,9 +73,9 @@ var calculatorModule = (function (){
     subtract:subtract,
     multiply:multiply,
     divide: divide,
-    getBalance: getBalance,
+/*    getBalance: getBalance,
     depBalance: depBalance,
-    wdBalance: wdBalance,
+    wdBalance: wdBalance,*/
     clearMemory: clearMemory,
   };
 
@@ -86,4 +88,6 @@ calcTest.add(50);
 calcTest.multiply(2);
 console.log(calcTest.getTotal());*/
 
-
+/*function addKeyClicks(key){
+  key.addEventListener("click", function (){
+    */
